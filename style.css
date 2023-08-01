@@ -1,0 +1,247 @@
+ *{
+    margin: 0; 
+    padding: 0;
+    font-family: Lato;
+}
+section{
+    margin-bottom: 50px;
+}
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    display: flex;
+    padding: 0 100px;
+}
+.text-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.text-part h2{
+    font-size: 60px;
+}
+.text-part p{
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.text-part button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.image{
+    padding-left: 100px;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+
+}
+.header .image img{
+    width: 380px;
+    height: 500px;
+    
+}
+#featured-flower{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+.featured-text h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    color: #272727;
+}
+.featured-text p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.demo-flower{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.flower{
+    width: 340px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flower img{
+    width: 230px;
+    height: 300px;
+}
+#flower-tree{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service{
+    margin: 0 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+#deliveryMan{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#offer{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0 100px;
+    display: flex;
+       
+}
+#offer .text-part{
+    display: flex;
+    flex-direction: column ;
+    align-items: center; 
+}
+#offer h3{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+#offer .text-part span{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+#offer p{
+    text-align: center;
+    font-size: 18px;
+}
+#offer .image{
+    justify-content: center;
+    margin: 20px 0;
+}
+#social-media{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+#social-media .demo-flower img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+#most-visited{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 249, 249);
+    padding: 20px 10px;
+}
+#most-visited img{
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 10px 15px grey;
+}
+#moreItems{
+    display: flex;
+    align-items: center;
+}
+#moreItems button{
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+#searchBar{
+    background-image:url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px;
+}
+#searchBar .featured-text{
+    margin-top: 120px;
+}
+.search{
+    display: flex;
+    align-items: center  ;
+    margin-top: 30px;
+}
+#searchBar input[type="search"]{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #FFF;
+    margin-right: 10px;
+    
+}
+#searchBar input[type="button"]{
+    background: #E55473;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer{
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+}
+footer .featured-text p{
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+footer .featured-text h1{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+footer .featured-text span{
+    color: #FFF;
+}
+footer small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .featured-text{
+    height: 250px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+    
+    
